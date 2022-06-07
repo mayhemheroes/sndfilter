@@ -1,5 +1,5 @@
 # Namespaced project name that the target belongs to
-project: jbgreenh/sndfilter
+project: sndfilter
 
 # Target name (should be unique within the project)
 target: sndfilter
@@ -10,4 +10,3 @@ cmds:
     # Command used to start the target, "@@" is the input file
     # (when "@@" is omitted Mayhem defaults to stdin inputs)
     - cmd: /sndfilter @@ <reverb> <5> <longreverb1>
-    
